@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошка-Кликер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Кликни на кошку!</h1>
+        <div class="cat-container">
+            <img src="https://via.placeholder.com/200x200?text=Кошка" alt="Кошка" id="cat" onclick="incrementCoins()">
+        </div>
+        <div class="stats">
+            <p>Монеты: <span id="coinCounter">0</span></p>
+            <button id="adButton">Смотреть рекламу (для бонуса)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
